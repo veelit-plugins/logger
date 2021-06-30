@@ -1,10 +1,8 @@
 {
   "name": "@veelit/logger",
-  "version": "1.1.2",
-  "main": "./dist/cjs/entry.js",
-  "module": "./dist/es/index.js",
+  "version": "1.1.4",
+  "main": "index.js",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "app-root-path": "^3.0.0",
     "chalk": "^4.1.1",
