@@ -1,0 +1,14 @@
+{
+  "name": "@veelit/logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "chalk": "^4.1.1",
+    "dayjs": "^1.10.5",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  }
+}
