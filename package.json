@@ -1,6 +1,6 @@
 {
   "name": "@veelit/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
@@ -13,7 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "np --no-tests "
   },
   "repository": {
     "type": "git",
