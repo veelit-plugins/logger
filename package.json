@@ -1,6 +1,6 @@
 {
   "name": "@veelit/logger",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "./dist/cjs/entry.js",
   "module": "./dist/es/index.js",
   "license": "MIT",
