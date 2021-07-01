@@ -10,21 +10,6 @@
     "uuid": "^8.3.2",
     "winston": "^3.3.3"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.14.5",
-    "@babel/core": "^7.14.6",
-    "@babel/node": "^7.14.5",
-    "@babel/plugin-transform-runtime": "^7.14.5",
-    "@babel/preset-env": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "babel-plugin-remove-comments": "^2.0.0",
-    "babel-preset-minify": "^0.5.1",
-    "core-js": "^3.14.0",
-    "jest": "^26.6.3",
-    "jest-cli": "^26.6.3",
-    "regenerator-runtime": "^0.13.7"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "np --no-tests ",
@@ -35,35 +20,11 @@
     "url": "git+https://github.com/veelit-plugins/logger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "r2g",
   "bugs": {
     "url": "https://github.com/veelit-plugins/logger/issues"
   },
   "homepage": "https://github.com/veelit-plugins/logger#readme",
-  "description": "",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      [
-        "minify",
-        {
-          "evaluate": true,
-          "mangle": true
-        }
-      ]
-    ],
-    "plugins": [
-      "remove-comments",
-      "@babel/plugin-transform-runtime",
-      [
-        "module-resolver",
-        {
-          "root": ".",
-          "alias": {
-            "@root": "./"
-          }
-        }
-      ]
-    ]
-  }
+  "devDependencies": {},
+  "description": ""
 }
