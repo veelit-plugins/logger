@@ -14,13 +14,14 @@ const { combine, timestamp, printf, errors } = format;
 const { Console, File } = transports;
 
 class Logger {
-	constructor(app) {
+	constructor({ app, logPath } = {}) {
 		this.app = app;
+		this.logPath = logPath ?? `${appRoot}/logs`;
 	}
 	create() {
 		// File logger
-		const date = dayjs().format("DD-MMM-21").toUpperCase();
-		const rootPath = `${appRoot}/logs/${this.app}/${date}`;
+		const date = dayjs().format("DD-MMM-YY").toUpperCase();
+		const rootPath = `${this.logPath}/${this.app}/${date}`;
 		const FILES = {
 			GENERAL: `${rootPath}/info.log`,
 			ERROR: `${rootPath}/error.log`,
