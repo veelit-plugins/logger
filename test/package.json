@@ -1,0 +1,11 @@
+{
+	"name": "logger-test",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"license": "MIT",
+	"dependencies": {
+		"@veelit/logger": "^2.0.0",
+		"uuid": "^8.3.2"
+	}
+}
